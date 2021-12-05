@@ -86,6 +86,6 @@ with beta_col3:
 
 # Display summary of the dataset on the click of checkbox.
 st.subheader("Columns Description:")
-	if st.checkbox("Show summary"):
-		st.table(census_df.describe())
+if st.checkbox("Show summary"):
+	st.table(census_df.describe())
 
